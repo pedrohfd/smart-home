@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .span-hamburger {
+    @apply block absolute h-1 w-full bg-zinc-50 rounded-lg opacity-100 left-0 rotate-0 transition-all;
+  }
+}

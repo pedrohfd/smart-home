@@ -1,34 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![smart home landing page](./.github/Desktop-cover.png)
 
-## Getting Started
+**Challenge Title**
 
-First, run the development server:
+Smart Home Landing Page
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+**Challenge Description**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+We need a landing page for every type of website/app. It helps users to get to know about our product. In this challenge, You’ll create a Smart Home Landing Page for a fictional Smart Home App.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**Difficulty Level**
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Intermediate
 
-## Learn More
+**Tags**
 
-To learn more about Next.js, take a look at the following resources:
+FRONTEND
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Learning**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+You'll learn to build a Smart Home Landing Page for a Smart Home App and you'll learn to make it responsive and mobile-friendly. You're definitely going to love this challenge. So what are you waiting for?
 
-## Deploy on Vercel
+**Requirements**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- See hover states for all interactive elements throughout the site
+- Show hamburger menu on mobile devices
+- Hide/Show the answer to a question when the question is clicked
+- Make it responsive
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+**Download Figma File**
+
+You can view and download Figma file from [this link](https://www.figma.com/file/iEQ130x7B1FCxOIysaC8n9/Smart-Home-Landing-Page?node-id=0%3A1).
+
+**How to extract images from Figma File?**
+
+You can extract images, icons and illustrations from a Figma file using [this guide](https://help.figma.com/hc/en-us/articles/360040028114-Guide-to-exports-in-Figma).
+
+I hope you'll enjoy building this challenge.
+
+Feel free to share your solution on the website or on social media and tag us.

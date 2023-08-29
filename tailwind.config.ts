@@ -15,6 +15,10 @@ const config: Config = {
       transformOrigin: {
         'left-center': 'left center',
       },
+
+      top: {
+        100: '30rem',
+      },
     },
   },
   plugins: [],

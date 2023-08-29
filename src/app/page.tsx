@@ -1,7 +1,9 @@
+import { HeroSection } from '@/components/HeroSection'
+
 export default function Home() {
   return (
-    <main className=''>
-      <h1>Smart Home</h1>
+    <main className='w-screen overflow-hidden'>
+      <HeroSection />
     </main>
   )
 }

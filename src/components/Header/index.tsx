@@ -1,11 +1,23 @@
+'use client'
+
+import { useState } from 'react'
 import { Hamburger } from '../Hamburger'
+import { Menu } from '../Menu'
 
 export const Header = () => {
-  return (
-    <header className='w-full pt-7 pl-6 pr-4  absolute tracking-wider flex items-center justify-between'>
-      <h1 className='text-zinc-50 text-[2rem] font-bold'>smartHome</h1>
+  const [isOpen, setIsOpen] = useState(false)
 
-      <Hamburger />
+  const handleOpenMenu = () => {
+    setIsOpen((prevState) => !prevState)
+  }
+
+  return (
+    <header className='absolute flex items-center justify-between w-full pl-6 pr-4 tracking-wider pt-7'>
+      <h1 className='text-3xl font-bold text-zinc-50'>smartHome</h1>
+
+      <Hamburger onClick={handleOpenMenu} />
+
+      <Menu isOpen={isOpen} />
     </header>
   )
 }
